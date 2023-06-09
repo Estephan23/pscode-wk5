@@ -1,0 +1,69 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a = input number 1
+b = input number 2
+
+print a + b
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Integer Number, S
+Input Number
+S=Number%2
+
+if (S==0)
+output "Even"
+else
+output "Odd"
+end if
+stop
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Write "please enter 5 numbers"
+Read n1,n2,n3,n4,n5
+
+Write "The average is"
+Set avg to (n1 + n2 + n3 + n4 + n5)/5
+Write avg
+
+If (n1 < n2)
+   Set max to n2
+Else
+   Set max to n1
+If (n3 > max)
+   Set max to n3
+If (n4 > max)
+   Set max to n4
+If (n5>max)
+   Set max to n5
+Write "the max is"
+Write max
+
+If (n1 > n2)
+   Set min to n2
+Else
+   Set min to n1
+If (n3 < min)
+   Set min to n3
+If (n4 < min)
+   Set min to n4
+If (n5 < min)
+   Set min to n5
+Write "The min is"
+Write min
+
+Results
+Number set = 1,2,3,4,5
+Average = (1+2+3+4+5)/5 
+Average = 3
+Max = 5
+Min = 1
+
+-- END --
